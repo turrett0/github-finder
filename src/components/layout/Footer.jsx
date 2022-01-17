@@ -7,7 +7,7 @@ function Footer() {
 
     return (
         <footer className="footer p-10 bg-gray-700 text-primary-content footer-center">
-           <FooterLogo/>
+           <FooterLogo className='inline-block fill-current'/>
             <p>Copyright &copy; {currentYear} All Right reserved</p>
         </footer>
     )
